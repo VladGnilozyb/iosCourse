@@ -62,15 +62,15 @@ if let nameJobs = nameJob {
 func changeArray (_ array: [Int]) -> [Int] {
     var resultArray: [Int] = []
     for number in array {
-        if number % 2 == 0 || number % 3 == 0 {
-        }
-        else {
-            resultArray.append( number)
+        if number % 2 != 0 && number % 3 != 0 {
+             resultArray.append( number)
         }
     }
     return resultArray
 }
 
+
+print(changeArray([1, 2, 3, 4, 5, 6, 7, 8]))
 /*:
  6.
  - Ниже приводится выписка из прав пассажиров общественного транспорта
