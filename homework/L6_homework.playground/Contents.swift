@@ -4,11 +4,8 @@ import UIKit
 
 //1. Напишите функцию, которая получает на вход целое чисол и возвращает Bool если оно четное
 private func evenNumber (Number: Int) -> Bool {
-    var numberBool = false
-    if Number % 2 == 0 {
-        numberBool = true
-    }
-    return numberBool
+    
+    return Number % 2 == 0
 }
 print (evenNumber(Number: 10))
 
@@ -18,7 +15,7 @@ print (evenNumber(Number: 10))
 //в которой первые два числа равны либо 1 и 1, либо 0 и 1, а каждое последующее число равно сумме двух предыдущих чисел.
 //
 // Напишите функцию, которая получает на вход номер числа фибоначи и выводит на выход его значение
-func fibbonachi(_ n: Int, firstNumber: Int) -> Int{
+func fibbonachi(_ n: Int, firstNumber: Int) -> Int {
     var numberLast = 1
     var numberBeforeLast = 0
     for _ in 0..<n
@@ -39,7 +36,7 @@ func fibbonachi(_ n: Int, firstNumber: Int) -> Int{
 print(fibbonachi(10, firstNumber: 1))
 
 //3. Напишите функцию, которая выводит самое большое четное число в массиве
-func maxEven(_ array: [Int]) -> Int {
+func maxEven(_ array: [Int]) -> Int? {
     var evenArray = [Int] ()
     for number in array{
         if evenNumber(Number:number) == true {
@@ -50,11 +47,11 @@ func maxEven(_ array: [Int]) -> Int {
         return maxEven
     }
     else {
-        return 0
+        return nil
     }
-    
 }
-print (maxEven([1, 2, 3, 4, 6, 5, 7, 8]))
+
+print (maxEven([1, 7, 3, 7, 7, 5, 7]))
 
 //4. Напишите функцию, которая принимает на вход расстояние и еденицу измерения (метры, километры, мили, ярды) и другую еденицу измерения в которую надо конвертировать значение. И возвращает расстояние в новых единицах измерения.
 
