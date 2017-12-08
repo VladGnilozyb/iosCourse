@@ -50,7 +50,6 @@ if let nameJobs = nameJob {
             if nameJobs.count == 1{
                 print("There is only one person")
             }
-            
         }
     }
 }
