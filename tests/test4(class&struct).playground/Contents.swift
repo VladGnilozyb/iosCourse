@@ -52,10 +52,10 @@ class Home {
     init(rooms: [Room]) {
         self.rooms = rooms
     }
-    func  printDatch() {
-        for room in rooms{
+    func printDatch() {
+        for room in rooms {
             for _ in room.sensors {
-                HomeSensor.printDesription
+            HomeSensor.printDesription
             }
         }
     }
