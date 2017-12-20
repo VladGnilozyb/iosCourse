@@ -56,13 +56,4 @@ func human(_ firstName: String, lastName: String ) -> (String, String) {
     let out = (firstName, lastName)
     return out
 }
-/*:
- 8. Напишите функцию, которая получает на вход массив [String?] и возвращает массив [String], в котором выброшены все nil значения из первого массива
- 
- Например из массива
- ["a", nil, "b"] получится массив ["a", "b"]
- */
-func notNil(_ arr: [String?]) -> [String] {
-    
-    }
-}
+

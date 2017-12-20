@@ -15,8 +15,8 @@ let height = (perimeter / 2) - width
  - вероятность выпадения осадков в ближайшие 3 часа
  - ваше имя и возраст
  */
-let firstOlympicGame: Int = 1896
-let chanseRain: Int = 3
+let firstOlympicGame: Int
+var chanseRain: Double
 let nameAndAge: (String, Int) = ("Vlad", 20)
 
 /*:
@@ -42,14 +42,12 @@ nameJob?.append(("Vlad", nil))
 if let nameJobs = nameJob {
     if nameJob == nil {
         print("Array not exists")
-    } else {
-        if nameJobs.isEmpty {
-            print("Array is empty" )
-        }
-        else  {
-            if nameJobs.count == 1{
-                print("There is only one person")
-            }
+    } else if nameJobs.isEmpty {
+        print("Array is empty" )
+    }
+    else  {
+        if nameJobs.count == 1 {
+            print("There is only one person")
         }
     }
 }
@@ -60,10 +58,10 @@ if let nameJobs = nameJob {
  котором удалены все элементы Которые делятся на 2 или 3
  */
 func changeArray (_ array: [Int]) -> [Int] {
-    var resultArray: [Int] = []
+    var resultArray = [Int]()
     for number in array {
         if number % 2 != 0 && number % 3 != 0 {
-             resultArray.append( number)
+            resultArray.append( number)
         }
     }
     return resultArray
@@ -86,16 +84,16 @@ let dogCapacity = 50
 let ageHuman = 18
 let dogDanger = true
 
-if ageHuman >= 16 && dogCapacity <= 50 {
+
+if ageHuman >= 16 && dogCapacity > 50 {
     if dogDanger == false {
         print("Пассажир может провезти собаку")
     }
-    else
-        if ageHuman >= 18 {
-            print("Пассажир может провезти собаку")
-        }
-        else {
-            print("пассажир не может провезти собаку")
+    else if ageHuman >= 18 {
+        print("Пассажир может провезти собаку")
+    }
+    else {
+        print("пассажир не может провезти собаку")
     }
 }
 else {
@@ -109,9 +107,10 @@ else {
  - Создайте новый массив [Int] с теми же значениями, что и в первом
  */
 var array: [Int?] = [1, nil, nil, 4 ,5, nil]
-for number in 0..<array.capacity  {
+//array = array.map { $0 ?? 0 }
+for number in 0..<array.count {
     if array[number] == nil {
-        array[number] = 0
+        array[number]z = 0
     }
 }
 print(array)
