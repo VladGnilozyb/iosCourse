@@ -110,3 +110,26 @@ class TemperatureSensor: HomeSensor {
  *5)*
  Представьте, что вы решили изменить класс HomeSensor на сруктуру HomeSensor. Напишите ее с учетом того, что вам нужно поддержать возможность создания датчиков для разного типа измеряемых величин и определять валидность установки targetValue для каждого типа. (как вариант можно использовать дополнительный enum для строгой типизации типов датчиков)
  */
+
+
+struct Rect {
+    let width = 0.0
+    let height = 0.0
+    let x = 0.0
+    let y = 0.0
+    
+    func interRect(rectangle: Rect) -> Bool {
+        let secondREct = self
+        let seccondMaxX = secondREct.x + secondREct.width
+        let firstMaxX = rectangle.x + rectangle.width
+        let seccondMaxY = secondREct.y + secondREct.height
+        let firstMaxY = rectangle.y + rectangle.height
+        if (rectangle.x < seccondMaxX && firstMaxX > secondREct.x) &&
+            (rectangle.y < seccondMaxY && firstMaxY > rectangle.y) {
+            return true
+            
+        }
+        return false  }
+    
+}
+

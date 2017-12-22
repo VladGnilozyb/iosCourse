@@ -11,7 +11,7 @@ func truRectangle(firstSide: Double, secondSide: Double, thirdSide: Double)-> Bo
     let secondAndThird = thirdSide + secondSide
     let firstAndThird = firstSide + thirdSide
     
-    if firstAndSecond > thirdSide || secondAndThird > firstSide || firstAndThird > secondSide {
+    if firstAndSecond > thirdSide && secondAndThird > firstSide && firstAndThird > secondSide {
         return false
     }
     return true
@@ -139,4 +139,3 @@ func piMonte() -> Double {
     return piMonte
 }
 
-print(piMonte())
