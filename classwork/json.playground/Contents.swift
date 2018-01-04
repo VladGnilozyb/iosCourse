@@ -1,5 +1,10 @@
-//: Playground - noun: a place where people can play
+struct Country {
+    let name: String
+    let population: Int
+    let neightbroots: [Country]
+    
+}
 
-import UIKit
-
-var str = "Hello, playground"
+{ "Country": "name" : "Belarus",
+    "populattion" : "1231",
+    "neightbroorts": [{"name": "Latvia", "population" : "12312312"}]
