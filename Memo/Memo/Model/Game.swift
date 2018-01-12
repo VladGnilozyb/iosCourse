@@ -8,7 +8,12 @@ class Game {
     var cards: [Card]
     
     init(cardPairs: Int) {
-        self.cardPairs = cardPairs
+        if cardPairs > 18 {
+            self.cardPairs = 18
+        }
+        else {
+            self.cardPairs = cardPairs
+        }
         
         var names = [String]()
          cards = [Card]()
