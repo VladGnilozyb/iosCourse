@@ -16,6 +16,7 @@ class Game {
             let index =  arc4random_uniform(UInt32(cardNames.count))
             names.append(cardNames[Int(index)])
         }
+        
         for name in names {
             let card = Card(isFlipped: false, imageName: name)
             let card2 = Card(isFlipped: false, imageName: name)
@@ -24,6 +25,7 @@ class Game {
         }
         cards = cards.shuffle()
     }
+    
     func cardFLipped(at index : Int) {
         if let flipped = flippedCard {
             twoCardsFlipped(cardOne: flipped, cardTwo: index)
