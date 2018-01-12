@@ -30,7 +30,7 @@ class GameViewController: UIViewController {
             backView.contentMode = .scaleAspectFit
             faceView.contentMode = .scaleAspectFit
             backView.image = UIImage(named: "card_back")?.withRenderingMode(.alwaysTemplate)
-            faceView.image = UIImage(named: "card1")
+            faceView.image = UIImage(named: game.cards[i].imageName)
             
             backView.backgroundColor = UIColor.white
             cardView.layer.borderWidth = 1
