@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  Memo
+//  memo
 //
-//  Created by Admin on 22/12/2017.
-//  Copyright © 2017 Admin. All rights reserved.
+//  Created by Artsiom Sadyryn on 12/27/17.
+//  Copyright © 2017 Artsiom Sadyryn. All rights reserved.
 //
 
 import UIKit

@@ -7,180 +7,194 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0922AEBA890E28DDA1821498 /* Pods_Memo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B925393ED5711B7A65B1BC3F /* Pods_Memo.framework */; };
-		8434F9DE1FF4139C004B8D2E /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8434F9DD1FF4139C004B8D2E /* ResultViewController.swift */; };
-		847B97DE2003D7DC0020106F /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847B97DD2003D7DC0020106F /* Game.swift */; };
-		847B97E02003D7E60020106F /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847B97DF2003D7E60020106F /* Card.swift */; };
-		847B97E32003DC540020106F /* Array+Shuffle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847B97E22003DC540020106F /* Array+Shuffle.swift */; };
-		84F1D31D1FED8342009E23E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F1D31C1FED8342009E23E6 /* AppDelegate.swift */; };
-		84F1D31F1FED8342009E23E6 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F1D31E1FED8342009E23E6 /* GameViewController.swift */; };
-		84F1D3221FED8342009E23E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84F1D3201FED8342009E23E6 /* Main.storyboard */; };
-		84F1D3241FED8342009E23E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84F1D3231FED8342009E23E6 /* Assets.xcassets */; };
-		84F1D3271FED8342009E23E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84F1D3251FED8342009E23E6 /* LaunchScreen.storyboard */; };
-		B9010893200D032A000DC66A /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9010892200D032A000DC66A /* CardView.swift */; };
-		B9010895200D18AD000DC66A /* AddSubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9010894200D18AD000DC66A /* AddSubView.swift */; };
-		B9E9062F200933BA00DC216C /* CardsContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E9062E200933BA00DC216C /* CardsContainer.swift */; };
+		7B121BC0200D00B7001E7D3A /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B121BBF200D00B7001E7D3A /* CardView.swift */; };
+		7B121BC4200D1232001E7D3A /* AddSubviewMargins.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B121BC3200D1232001E7D3A /* AddSubviewMargins.swift */; };
+		7B3A41D52003D7E900A453DC /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3A41D42003D7E900A453DC /* Game.swift */; };
+		7B3A41D72003D7F300A453DC /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3A41D62003D7F300A453DC /* Card.swift */; };
+		7B3A41DA2003DC6400A453DC /* ArrayShuffle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3A41D92003DC6400A453DC /* ArrayShuffle.swift */; };
+		7BE0FBF7201650C800A1C19E /* GameResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE0FBF6201650C800A1C19E /* GameResult.swift */; };
+		7BE0FBFA201654FD00A1C19E /* StatsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE0FBF9201654FD00A1C19E /* StatsService.swift */; };
+		7BED36F1200933F700A9E3E0 /* CardsContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BED36F0200933F700A9E3E0 /* CardsContainer.swift */; };
+		7BF67A941FF40FDF0098F9CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF67A931FF40FDF0098F9CF /* AppDelegate.swift */; };
+		7BF67A961FF40FDF0098F9CF /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF67A951FF40FDF0098F9CF /* GameViewController.swift */; };
+		7BF67A991FF40FDF0098F9CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BF67A971FF40FDF0098F9CF /* Main.storyboard */; };
+		7BF67A9B1FF40FDF0098F9CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BF67A9A1FF40FDF0098F9CF /* Assets.xcassets */; };
+		7BF67A9E1FF40FDF0098F9CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BF67A9C1FF40FDF0098F9CF /* LaunchScreen.storyboard */; };
+		7BF67AA61FF413B70098F9CF /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF67AA51FF413B70098F9CF /* ResultViewController.swift */; };
+		F7EBA0A54399E29099583DA7 /* Pods_memo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B267F631C3A1C72819F5A6A /* Pods_memo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8434F9DD1FF4139C004B8D2E /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
-		847B97DD2003D7DC0020106F /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
-		847B97DF2003D7E60020106F /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
-		847B97E22003DC540020106F /* Array+Shuffle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Shuffle.swift"; sourceTree = "<group>"; };
-		84F1D3191FED8342009E23E6 /* Memo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		84F1D31C1FED8342009E23E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		84F1D31E1FED8342009E23E6 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
-		84F1D3211FED8342009E23E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		84F1D3231FED8342009E23E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		84F1D3261FED8342009E23E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		84F1D3281FED8342009E23E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B9010892200D032A000DC66A /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
-		B9010894200D18AD000DC66A /* AddSubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSubView.swift; sourceTree = "<group>"; };
-		B925393ED5711B7A65B1BC3F /* Pods_Memo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Memo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B9E9062E200933BA00DC216C /* CardsContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsContainer.swift; sourceTree = "<group>"; };
-		D807964E5E8E95AF2B1A4C48 /* Pods-Memo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Memo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Memo/Pods-Memo.release.xcconfig"; sourceTree = "<group>"; };
-		F0F1053AA770DE9EEEEC8834 /* Pods-Memo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Memo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Memo/Pods-Memo.debug.xcconfig"; sourceTree = "<group>"; };
+		2B267F631C3A1C72819F5A6A /* Pods_memo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_memo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		34B76FB12D1515FD4B887A9E /* Pods-memo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-memo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-memo/Pods-memo.debug.xcconfig"; sourceTree = "<group>"; };
+		7B121BBF200D00B7001E7D3A /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		7B121BC3200D1232001E7D3A /* AddSubviewMargins.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSubviewMargins.swift; sourceTree = "<group>"; };
+		7B3A41D42003D7E900A453DC /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		7B3A41D62003D7F300A453DC /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		7B3A41D92003DC6400A453DC /* ArrayShuffle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayShuffle.swift; sourceTree = "<group>"; };
+		7BE0FBF6201650C800A1C19E /* GameResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameResult.swift; sourceTree = "<group>"; };
+		7BE0FBF9201654FD00A1C19E /* StatsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsService.swift; sourceTree = "<group>"; };
+		7BED36F0200933F700A9E3E0 /* CardsContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsContainer.swift; sourceTree = "<group>"; };
+		7BF67A901FF40FDF0098F9CF /* memo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = memo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BF67A931FF40FDF0098F9CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7BF67A951FF40FDF0098F9CF /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		7BF67A981FF40FDF0098F9CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7BF67A9A1FF40FDF0098F9CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7BF67A9D1FF40FDF0098F9CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7BF67A9F1FF40FDF0098F9CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BF67AA51FF413B70098F9CF /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		AC664EEE8137D453B29F1143 /* Pods-memo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-memo.release.xcconfig"; path = "Pods/Target Support Files/Pods-memo/Pods-memo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		84F1D3161FED8342009E23E6 /* Frameworks */ = {
+		7BF67A8D1FF40FDF0098F9CF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0922AEBA890E28DDA1821498 /* Pods_Memo.framework in Frameworks */,
+				F7EBA0A54399E29099583DA7 /* Pods_memo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5CDBAA0409454941E8E22476 /* Pods */ = {
+		7B121BC2200D0296001E7D3A /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				F0F1053AA770DE9EEEEC8834 /* Pods-Memo.debug.xcconfig */,
-				D807964E5E8E95AF2B1A4C48 /* Pods-Memo.release.xcconfig */,
+				7BED36F0200933F700A9E3E0 /* CardsContainer.swift */,
+				7B121BBF200D00B7001E7D3A /* CardView.swift */,
 			);
-			name = Pods;
+			path = Views;
 			sourceTree = "<group>";
 		};
-		8434F9DF1FF414BD004B8D2E /* GameControllers */ = {
+		7B3A41D32003D7C300A453DC /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				84F1D31E1FED8342009E23E6 /* GameViewController.swift */,
-				8434F9DD1FF4139C004B8D2E /* ResultViewController.swift */,
-			);
-			path = GameControllers;
-			sourceTree = "<group>";
-		};
-		847B97DC2003D7A90020106F /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				847B97DD2003D7DC0020106F /* Game.swift */,
-				847B97DF2003D7E60020106F /* Card.swift */,
+				7B3A41D42003D7E900A453DC /* Game.swift */,
+				7B3A41D62003D7F300A453DC /* Card.swift */,
+				7BE0FBF6201650C800A1C19E /* GameResult.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
 		};
-		847B97E12003DC0D0020106F /* Utility */ = {
+		7B3A41D82003DC1D00A453DC /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
-				847B97E22003DC540020106F /* Array+Shuffle.swift */,
-				B9010894200D18AD000DC66A /* AddSubView.swift */,
+				7B3A41D92003DC6400A453DC /* ArrayShuffle.swift */,
+				7B121BC3200D1232001E7D3A /* AddSubviewMargins.swift */,
 			);
-			path = Utility;
+			path = Utilities;
 			sourceTree = "<group>";
 		};
-		84F1D3101FED8342009E23E6 = {
+		7BE0FBF8201654E300A1C19E /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				B9010891200D0310000DC66A /* views */,
-				84F1D31B1FED8342009E23E6 /* Memo */,
-				84F1D31A1FED8342009E23E6 /* Products */,
-				5CDBAA0409454941E8E22476 /* Pods */,
-				C73BCE5DD70028B60B83A8AF /* Frameworks */,
+				7BE0FBF9201654FD00A1C19E /* StatsService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		7BF67A871FF40FDF0098F9CF = {
+			isa = PBXGroup;
+			children = (
+				7BF67A921FF40FDF0098F9CF /* memo */,
+				7BF67A911FF40FDF0098F9CF /* Products */,
+				CB50D91DB8E8966EC3104512 /* Pods */,
+				B53524347CD23716579F85E4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		84F1D31A1FED8342009E23E6 /* Products */ = {
+		7BF67A911FF40FDF0098F9CF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				84F1D3191FED8342009E23E6 /* Memo.app */,
+				7BF67A901FF40FDF0098F9CF /* memo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		84F1D31B1FED8342009E23E6 /* Memo */ = {
+		7BF67A921FF40FDF0098F9CF /* memo */ = {
 			isa = PBXGroup;
 			children = (
-				847B97DC2003D7A90020106F /* Model */,
-				84F1D31C1FED8342009E23E6 /* AppDelegate.swift */,
-				8434F9DF1FF414BD004B8D2E /* GameControllers */,
-				84F1D3201FED8342009E23E6 /* Main.storyboard */,
-				84F1D3231FED8342009E23E6 /* Assets.xcassets */,
-				84F1D3251FED8342009E23E6 /* LaunchScreen.storyboard */,
-				84F1D3281FED8342009E23E6 /* Info.plist */,
-				847B97E12003DC0D0020106F /* Utility */,
+				7BE0FBF8201654E300A1C19E /* Services */,
+				7B121BC2200D0296001E7D3A /* Views */,
+				7B3A41D82003DC1D00A453DC /* Utilities */,
+				7B3A41D32003D7C300A453DC /* Model */,
+				7BF67A931FF40FDF0098F9CF /* AppDelegate.swift */,
+				7BF67AA71FF414C90098F9CF /* GameCotrollers */,
+				7BF67A971FF40FDF0098F9CF /* Main.storyboard */,
+				7BF67A9A1FF40FDF0098F9CF /* Assets.xcassets */,
+				7BF67A9C1FF40FDF0098F9CF /* LaunchScreen.storyboard */,
+				7BF67A9F1FF40FDF0098F9CF /* Info.plist */,
 			);
-			path = Memo;
+			path = memo;
 			sourceTree = "<group>";
 		};
-		B9010891200D0310000DC66A /* views */ = {
+		7BF67AA71FF414C90098F9CF /* GameCotrollers */ = {
 			isa = PBXGroup;
 			children = (
-				B9E9062E200933BA00DC216C /* CardsContainer.swift */,
-				B9010892200D032A000DC66A /* CardView.swift */,
+				7BF67A951FF40FDF0098F9CF /* GameViewController.swift */,
+				7BF67AA51FF413B70098F9CF /* ResultViewController.swift */,
 			);
-			path = views;
+			path = GameCotrollers;
 			sourceTree = "<group>";
 		};
-		C73BCE5DD70028B60B83A8AF /* Frameworks */ = {
+		B53524347CD23716579F85E4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B925393ED5711B7A65B1BC3F /* Pods_Memo.framework */,
+				2B267F631C3A1C72819F5A6A /* Pods_memo.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB50D91DB8E8966EC3104512 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				34B76FB12D1515FD4B887A9E /* Pods-memo.debug.xcconfig */,
+				AC664EEE8137D453B29F1143 /* Pods-memo.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		84F1D3181FED8342009E23E6 /* Memo */ = {
+		7BF67A8F1FF40FDF0098F9CF /* memo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 84F1D32B1FED8342009E23E6 /* Build configuration list for PBXNativeTarget "Memo" */;
+			buildConfigurationList = 7BF67AA21FF40FDF0098F9CF /* Build configuration list for PBXNativeTarget "memo" */;
 			buildPhases = (
-				FA1257A7F3E3C4DFE73386C8 /* [CP] Check Pods Manifest.lock */,
-				84F1D3151FED8342009E23E6 /* Sources */,
-				84F1D3161FED8342009E23E6 /* Frameworks */,
-				84F1D3171FED8342009E23E6 /* Resources */,
-				B2375D966BDEE295FDA352B5 /* [CP] Embed Pods Frameworks */,
-				D89DBC4189B6808CEEA34A79 /* [CP] Copy Pods Resources */,
+				88372CC210F700F00594D550 /* [CP] Check Pods Manifest.lock */,
+				7BF67A8C1FF40FDF0098F9CF /* Sources */,
+				7BF67A8D1FF40FDF0098F9CF /* Frameworks */,
+				7BF67A8E1FF40FDF0098F9CF /* Resources */,
+				94A3C727F718C3FF47321D31 /* [CP] Embed Pods Frameworks */,
+				9A1980DDD8C92599BA52DBF3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Memo;
-			productName = Memo;
-			productReference = 84F1D3191FED8342009E23E6 /* Memo.app */;
+			name = memo;
+			productName = memo;
+			productReference = 7BF67A901FF40FDF0098F9CF /* memo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		84F1D3111FED8342009E23E6 /* Project object */ = {
+		7BF67A881FF40FDF0098F9CF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0900;
-				LastUpgradeCheck = 0900;
-				ORGANIZATIONNAME = Admin;
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Artsiom Sadyryn";
 				TargetAttributes = {
-					84F1D3181FED8342009E23E6 = {
-						CreatedOnToolsVersion = 9.0;
+					7BF67A8F1FF40FDF0098F9CF = {
+						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 84F1D3141FED8342009E23E6 /* Build configuration list for PBXProject "Memo" */;
+			buildConfigurationList = 7BF67A8B1FF40FDF0098F9CF /* Build configuration list for PBXProject "memo" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -188,37 +202,55 @@
 				en,
 				Base,
 			);
-			mainGroup = 84F1D3101FED8342009E23E6;
-			productRefGroup = 84F1D31A1FED8342009E23E6 /* Products */;
+			mainGroup = 7BF67A871FF40FDF0098F9CF;
+			productRefGroup = 7BF67A911FF40FDF0098F9CF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				84F1D3181FED8342009E23E6 /* Memo */,
+				7BF67A8F1FF40FDF0098F9CF /* memo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		84F1D3171FED8342009E23E6 /* Resources */ = {
+		7BF67A8E1FF40FDF0098F9CF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84F1D3271FED8342009E23E6 /* LaunchScreen.storyboard in Resources */,
-				84F1D3241FED8342009E23E6 /* Assets.xcassets in Resources */,
-				84F1D3221FED8342009E23E6 /* Main.storyboard in Resources */,
+				7BF67A9E1FF40FDF0098F9CF /* LaunchScreen.storyboard in Resources */,
+				7BF67A9B1FF40FDF0098F9CF /* Assets.xcassets in Resources */,
+				7BF67A991FF40FDF0098F9CF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		B2375D966BDEE295FDA352B5 /* [CP] Embed Pods Frameworks */ = {
+		88372CC210F700F00594D550 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Memo/Pods-Memo-frameworks.sh",
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-memo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94A3C727F718C3FF47321D31 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-memo/Pods-memo-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -227,10 +259,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Memo/Pods-Memo-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-memo/Pods-memo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D89DBC4189B6808CEEA34A79 /* [CP] Copy Pods Resources */ = {
+		9A1980DDD8C92599BA52DBF3 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -242,61 +274,45 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Memo/Pods-Memo-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		FA1257A7F3E3C4DFE73386C8 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Memo-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-memo/Pods-memo-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		84F1D3151FED8342009E23E6 /* Sources */ = {
+		7BF67A8C1FF40FDF0098F9CF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84F1D31F1FED8342009E23E6 /* GameViewController.swift in Sources */,
-				847B97E32003DC540020106F /* Array+Shuffle.swift in Sources */,
-				B9E9062F200933BA00DC216C /* CardsContainer.swift in Sources */,
-				84F1D31D1FED8342009E23E6 /* AppDelegate.swift in Sources */,
-				847B97E02003D7E60020106F /* Card.swift in Sources */,
-				8434F9DE1FF4139C004B8D2E /* ResultViewController.swift in Sources */,
-				B9010895200D18AD000DC66A /* AddSubView.swift in Sources */,
-				B9010893200D032A000DC66A /* CardView.swift in Sources */,
-				847B97DE2003D7DC0020106F /* Game.swift in Sources */,
+				7BF67A961FF40FDF0098F9CF /* GameViewController.swift in Sources */,
+				7BE0FBFA201654FD00A1C19E /* StatsService.swift in Sources */,
+				7BF67A941FF40FDF0098F9CF /* AppDelegate.swift in Sources */,
+				7BED36F1200933F700A9E3E0 /* CardsContainer.swift in Sources */,
+				7B3A41D72003D7F300A453DC /* Card.swift in Sources */,
+				7BE0FBF7201650C800A1C19E /* GameResult.swift in Sources */,
+				7B3A41DA2003DC6400A453DC /* ArrayShuffle.swift in Sources */,
+				7BF67AA61FF413B70098F9CF /* ResultViewController.swift in Sources */,
+				7B121BC0200D00B7001E7D3A /* CardView.swift in Sources */,
+				7B121BC4200D1232001E7D3A /* AddSubviewMargins.swift in Sources */,
+				7B3A41D52003D7E900A453DC /* Game.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		84F1D3201FED8342009E23E6 /* Main.storyboard */ = {
+		7BF67A971FF40FDF0098F9CF /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				84F1D3211FED8342009E23E6 /* Base */,
+				7BF67A981FF40FDF0098F9CF /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		84F1D3251FED8342009E23E6 /* LaunchScreen.storyboard */ = {
+		7BF67A9C1FF40FDF0098F9CF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				84F1D3261FED8342009E23E6 /* Base */,
+				7BF67A9D1FF40FDF0098F9CF /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -304,7 +320,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		84F1D3291FED8342009E23E6 /* Debug */ = {
+		7BF67AA01FF40FDF0098F9CF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -352,7 +368,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -361,7 +377,7 @@
 			};
 			name = Debug;
 		};
-		84F1D32A1FED8342009E23E6 /* Release */ = {
+		7BF67AA11FF40FDF0098F9CF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -403,7 +419,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -411,32 +427,32 @@
 			};
 			name = Release;
 		};
-		84F1D32C1FED8342009E23E6 /* Debug */ = {
+		7BF67AA31FF40FDF0098F9CF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F0F1053AA770DE9EEEEC8834 /* Pods-Memo.debug.xcconfig */;
+			baseConfigurationReference = 34B76FB12D1515FD4B887A9E /* Pods-memo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = GY444AU36H;
-				INFOPLIST_FILE = Memo/Info.plist;
+				DEVELOPMENT_TEAM = 8LSCB2ZP9M;
+				INFOPLIST_FILE = memo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "-23.Memo";
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.artyomsadyrin.memo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		84F1D32D1FED8342009E23E6 /* Release */ = {
+		7BF67AA41FF40FDF0098F9CF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D807964E5E8E95AF2B1A4C48 /* Pods-Memo.release.xcconfig */;
+			baseConfigurationReference = AC664EEE8137D453B29F1143 /* Pods-memo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = GY444AU36H;
-				INFOPLIST_FILE = Memo/Info.plist;
+				DEVELOPMENT_TEAM = 8LSCB2ZP9M;
+				INFOPLIST_FILE = memo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "-23.Memo";
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.artyomsadyrin.memo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -446,25 +462,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		84F1D3141FED8342009E23E6 /* Build configuration list for PBXProject "Memo" */ = {
+		7BF67A8B1FF40FDF0098F9CF /* Build configuration list for PBXProject "memo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				84F1D3291FED8342009E23E6 /* Debug */,
-				84F1D32A1FED8342009E23E6 /* Release */,
+				7BF67AA01FF40FDF0098F9CF /* Debug */,
+				7BF67AA11FF40FDF0098F9CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		84F1D32B1FED8342009E23E6 /* Build configuration list for PBXNativeTarget "Memo" */ = {
+		7BF67AA21FF40FDF0098F9CF /* Build configuration list for PBXNativeTarget "memo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				84F1D32C1FED8342009E23E6 /* Debug */,
-				84F1D32D1FED8342009E23E6 /* Release */,
+				7BF67AA31FF40FDF0098F9CF /* Debug */,
+				7BF67AA41FF40FDF0098F9CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 84F1D3111FED8342009E23E6 /* Project object */;
+	rootObject = 7BF67A881FF40FDF0098F9CF /* Project object */;
 }
