@@ -1,35 +1,37 @@
-//
-//  StatsService.swift
-//  memo
-//
-//  Created by Artsiom Sadyryn on 1/22/18.
-//  Copyright © 2018 Artsiom Sadyryn. All rights reserved.
-//
-
 import Foundation
 
 class StatsService {
     
-    /*
-    private func save(value: Codable, for key: String) {
-        let encoder = JSONEncoder()
-        if let encoded = try? encoder.encode(value) {
-            UserDefaults.standard.setValue(encoded, forKey: key)
-        }
-    }
- */
-    
     func save(results: GameResult) {
-        let saved = results.getDictionary()
-        //save(value: results as! Codable, for: "gameResults")
-        UserDefaults.standard.setValue(saved, forKey: "gameResult")
+        UserDefaults.standard.save(value: results, for: "gameResults")
     }
     
-    func getlastResult() -> GameResult? {
-        let result = UserDefaults.standard.object(forKey: "gameResult")
-        if let gameResult = GameResult(dictionary: result as! [String : String]) {
-            return gameResult
+    func getLastResult() -> GameResult? {
+        return UserDefaults.standard.load(for: "gameResults")
+    }
+    
+    func totalGame(games: [GameResult]) -> TimeInterval {
+        var time = [TimeInterval]()
+        for game in games {
+            time.append(game.time)
         }
-        return nil
+        return time.reduce (0, +)
+    }
+    
+    func scores(games: [GameResult]) -> [Double] {
+        var score = [Double]()
+        
+        for game in games {
+            let pairs = Double(game.pairs)
+            let steps = Double(game.steps)
+            let time = Double(game.time)
+            score.append(pairs/(steps*time))
+        }
+        return score
+    }
+    
+    func bestGame(games: [GameResult]) -> GameResult {
+        let score = scores(games: games)
+        
     }
 }

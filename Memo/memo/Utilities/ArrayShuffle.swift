@@ -1,11 +1,3 @@
-//
-//  ArrayShuffle.swift
-//  memo
-//
-//  Created by Artsiom Sadyryn on 1/8/18.
-//  Copyright © 2018 Artsiom Sadyryn. All rights reserved.
-//
-
 import Foundation
 
 extension Array {

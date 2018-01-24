@@ -21,6 +21,7 @@
 		7BF67A9B1FF40FDF0098F9CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BF67A9A1FF40FDF0098F9CF /* Assets.xcassets */; };
 		7BF67A9E1FF40FDF0098F9CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BF67A9C1FF40FDF0098F9CF /* LaunchScreen.storyboard */; };
 		7BF67AA61FF413B70098F9CF /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF67AA51FF413B70098F9CF /* ResultViewController.swift */; };
+		B9E22556201898AF00C62859 /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E22555201898AF00C62859 /* UserDefaults.swift */; };
 		F7EBA0A54399E29099583DA7 /* Pods_memo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B267F631C3A1C72819F5A6A /* Pods_memo.framework */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +45,7 @@
 		7BF67A9F1FF40FDF0098F9CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7BF67AA51FF413B70098F9CF /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		AC664EEE8137D453B29F1143 /* Pods-memo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-memo.release.xcconfig"; path = "Pods/Target Support Files/Pods-memo/Pods-memo.release.xcconfig"; sourceTree = "<group>"; };
+		B9E22555201898AF00C62859 /* UserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 			children = (
 				7B3A41D92003DC6400A453DC /* ArrayShuffle.swift */,
 				7B121BC3200D1232001E7D3A /* AddSubviewMargins.swift */,
+				B9E22555201898AF00C62859 /* UserDefaults.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -292,6 +295,7 @@
 				7BE0FBF7201650C800A1C19E /* GameResult.swift in Sources */,
 				7B3A41DA2003DC6400A453DC /* ArrayShuffle.swift in Sources */,
 				7BF67AA61FF413B70098F9CF /* ResultViewController.swift in Sources */,
+				B9E22556201898AF00C62859 /* UserDefaults.swift in Sources */,
 				7B121BC0200D00B7001E7D3A /* CardView.swift in Sources */,
 				7B121BC4200D1232001E7D3A /* AddSubviewMargins.swift in Sources */,
 				7B3A41D52003D7E900A453DC /* Game.swift in Sources */,
@@ -433,10 +437,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8LSCB2ZP9M;
+				DEVELOPMENT_TEAM = GY444AU36H;
 				INFOPLIST_FILE = memo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.github.artyomsadyrin.memo;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.vladgnilozyb.memo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -449,10 +453,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8LSCB2ZP9M;
+				DEVELOPMENT_TEAM = GY444AU36H;
 				INFOPLIST_FILE = memo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.github.artyomsadyrin.memo;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.vladgnilozyb.memo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
